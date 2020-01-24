@@ -1,6 +1,4 @@
 require 'prime'
 def prime?(int)
-  if Prime.prime?(int)
-    
-  end
+  Prime.prime?(int) ? true : false
 end
